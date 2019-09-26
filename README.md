@@ -9,7 +9,9 @@ Vogliono fare un nuovo sito mantenendo nell'intestazone il loro logo storico. Vo
 - una pagina con l'elenco dei generi disponibili
 - una pagina di riepilogo dei film che mostri:
 
-| Titolo | Protagonista | Anno | Genere
+| Titolo | Protagonista | Anno | Genere |
+| --- | --- | --- | --- |
+| ... | ... | ... | ... |
 
 Tutte le pagine create devono essere accessibili dal menu di navigazione principale del sito web.
 
