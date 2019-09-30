@@ -30,6 +30,7 @@ create table film(
 insert into film values (1,'Top gun',1896,1);
 insert into film values (2,'La rivincita dei nerds',1984,2);
 insert into film values (3,'Forrest Gump',1994,3);
+insert into film values (4,'Giorni di tuono',1990,1);
 
 create table recita(
     attoreId int not null references attori(id),
@@ -41,3 +42,5 @@ insert into recita values (2,1);
 insert into recita values (4,1);
 insert into recita values (2,2);
 insert into recita values (3,3);
+insert into recita values (1,4);
+
