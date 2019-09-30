@@ -19,7 +19,8 @@ Il database di riferimento è reperibile all'url https://github.com/Mauro-Rainis
 
 Per la parte di conoscenza di SQL si richiede di scrivere le query per le seguenti richieste:
 
-1. elenco attori in ordine di età, dal più giovane al più vecchio
-2. elenco dei film drammatici: titolo e anno
-3. i titoli dei film in cui ha recitato Tom Cruise
-4. il numero di film presenti a catalogo
+1.	elenco attori in ordine di età, dal più giovane al più vecchio
+2.	elenco dei film drammatici: titolo e anno
+3.	i titoli dei film in cui ha recitato Tom Cruise
+4.	il numero di film presenti a catalogo
+5.	il catalogo completo dei film disponibili con anno, titolo, nome e cognome protagonista, genere. Ordinato per anno, titolo, cognome.
