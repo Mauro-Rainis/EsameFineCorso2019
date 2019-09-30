@@ -7,7 +7,7 @@ Vogliono fare un nuovo sito mantenendo nell'intestazone il loro logo storico. Vo
 
 - una pagina con l'elenco degli attori ordinati per anno di nascita con relativa foto
 - una pagina con l'elenco dei generi disponibili
-- una pagina di riepilogo dei film che mostri:
+- una pagina di riepilogo dei film che mostri la seguente tabella:
 
 | Titolo | Protagonista | Anno | Genere |
 | --- | --- | --- | --- |
@@ -16,3 +16,10 @@ Vogliono fare un nuovo sito mantenendo nell'intestazone il loro logo storico. Vo
 Tutte le pagine create devono essere accessibili dal menu di navigazione principale del sito web.
 
 Il database di riferimento è reperibile all'url https://github.com/Mauro-Rainis/EsameFineCorso2019.
+
+Per la parte di conoscenza di SQL si richiede di scrivere le query per le seguenti richieste:
+
+1. elenco attori in ordine di età, dal più giovane al più vecchio
+2. elenco dei film drammatici: titolo e anno
+3. i titoli dei film in cui ha recitato Tom Criuse
+4. il numero di film presenti a catalogo
