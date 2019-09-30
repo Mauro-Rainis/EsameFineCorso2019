@@ -3,13 +3,14 @@ create table attori(
     nome varchar(32) not null,
     cognome varchar(32) not null,
     annoNascita int,
-    nazionalita varchar(32)
+    nazionalita varchar(32),
+    urlFoto varchar(256)
 );
 
-insert into attori values (1,'Tom','Cruise',1962,'Statunitense');
-insert into attori values (2,'Anthony','Edwards',1962,'Statunitense');
-insert into attori values (3,'Tom','Hanks',1956,'Statunitense');
-insert into attori values (4,'Kelly','McGillis',1957,'Statunitense');
+insert into attori values (1,'Tom','Cruise',1962,'Statunitense','https://pad.mymovies.it/filmclub/attori/9669.jpg');
+insert into attori values (2,'Arnold','Schwarzenegger',1947,'Austriaca','https://pad.mymovies.it/filmclub/attori/5378.jpg');
+insert into attori values (3,'Tom','Hanks',1956,'Statunitense','https://pad.mymovies.it/filmclub/attori/4606.jpg');
+insert into attori values (4,'Julia','Roberts',1967,'Statunitense','https://pad.mymovies.it/filmclub/attori/178.jpg');
 
 create table generi(
     id int primary key,
@@ -24,23 +25,12 @@ create table film(
     id int primary key,
     titolo varchar(64) not null,
     anno int,
-    genere int default null references generi(id)
+    genereId int default null references Generi(Id),
+    protagonistaId int not null references attori(Id)    
 );
 
-insert into film values (1,'Top gun',1896,1);
-insert into film values (2,'La rivincita dei nerds',1984,2);
-insert into film values (3,'Forrest Gump',1994,3);
-insert into film values (4,'Giorni di tuono',1990,1);
-
-create table recita(
-    attoreId int not null references attori(id),
-    filmId int not null references film(id)
-);
-
-insert into recita values (1,1);
-insert into recita values (2,1);
-insert into recita values (4,1);
-insert into recita values (2,2);
-insert into recita values (3,3);
-insert into recita values (1,4);
-
+insert into film values (1,'Top gun',1896,1,1);
+insert into film values (2,'Forrest Gump',1994,3,3);
+insert into film values (3,'Commando',1994,1,2);
+insert into film values (4,'Pretty woman',1990,2,4);
+insert into film values (5,'Giorni di Tuono',1990,1,1);
