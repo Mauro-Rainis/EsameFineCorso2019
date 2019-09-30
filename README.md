@@ -15,4 +15,4 @@ Vogliono fare un nuovo sito mantenendo nell'intestazone il loro logo storico. Vo
 
 Tutte le pagine create devono essere accessibili dal menu di navigazione principale del sito web.
 
-Il materiale è reperibile all'url https://github.com/Mauro-Rainis/EsameFineCorso2019
+Il database di riferimento è reperibile all'url https://github.com/Mauro-Rainis/EsameFineCorso2019.
